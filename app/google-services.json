@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "840370745890",
+    "firebase_url": "https://contactsapp-f8965.firebaseio.com",
+    "project_id": "contactsapp-f8965",
+    "storage_bucket": "contactsapp-f8965.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840370745890:android:8a24b0db2ae0e9cd4e107b",
+        "android_client_info": {
+          "package_name": "com.NH.technerdstest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "840370745890-am1ouqb6m3irfk2jb8ol2mq7c4fetlr0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdo9umA9NU_jvE_WKiaFa7fr2YqMEKRDk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "840370745890-am1ouqb6m3irfk2jb8ol2mq7c4fetlr0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
