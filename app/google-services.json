@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "840370745890-l1k923e5j28rra7fqhtrnvgnhq7fbbs6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.NH.technerdstest",
+            "certificate_hash": "7ed26f0acfd831e33c011a590a60aacaa23cc6ed"
+          }
+        },
+        {
           "client_id": "840370745890-am1ouqb6m3irfk2jb8ol2mq7c4fetlr0.apps.googleusercontent.com",
           "client_type": 3
         }

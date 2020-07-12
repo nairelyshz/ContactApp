@@ -39,22 +39,9 @@ public class LoginActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         registerBtn = findViewById(R.id.register);
         loginBtn = findViewById(R.id.login);
-        //login();
-        /*registerBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Log.d("click","register");
-                register(view);
-            }
-        });
-
-        loginBtn.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view) {
-                Log.d("click","login");
-                login(view);
-            }
-        });*/
+        if (mAuth.getCurrentUser() != null){
+            startActivity(new Intent(LoginActivity.this, Home.class));
+        }
     }
 
     public void login(View view){
