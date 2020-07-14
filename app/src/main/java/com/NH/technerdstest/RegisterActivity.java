@@ -46,7 +46,7 @@ public class RegisterActivity extends AppCompatActivity {
                     if (task.isSuccessful()) {
                         // Sign in success, update UI with the signed-in user's information
                         Log.d("success", "createUserWithEmail:success");
-                        User user = new User("knkjnkj",
+                        User user = new User(firstName.getText().toString(),
                                             lastName.getText().toString(),
                                             email.getText().toString(),
                                             password.getText().toString(),
